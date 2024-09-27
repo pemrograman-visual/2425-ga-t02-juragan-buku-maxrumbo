@@ -1,6 +1,7 @@
 // 12S24037 - Maxwell Rumahorbo
 // 12S24030 - Swasti Sihombing
 
+
 import java.util.*;
 import java.lang.Math;
 
@@ -15,13 +16,13 @@ public class T02 {
         isbn = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
-        tahunterbit = input.nextInt();
+        tahunterbit = Integer.parseInt(input.nextLine());
         penerbit = input.nextLine();
         formatbukuelektrik = input.nextLine();
-        hargapembelian = input.nextDouble();
-        minimummargin = input.nextDouble();
-        stok = input.nextInt();
-        rating = input.nextDouble();
+        hargapembelian = Double.parseDouble(input.nextLine());
+        minimummargin = Double.parseDouble(input.nextLine());
+        stok = Integer.parseInt(input.nextLine());
+        rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7) {
             kategori = "Best Pick";
         } else {
